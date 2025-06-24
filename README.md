@@ -1,1 +1,6 @@
 # MIMIC-Mortality-ML-Statistical-Analysis
+In this project I take the MIMIC public dataset which consists of data from over 4,000 patients. The data describes a patient's mortality (yes/no), medical diagnosis of specific diseases, vital signs during ICU admittance, ICU length of stay, SOFA Score, lab results and other features.
+I take the data and provide a thorough statistical analysis including different statistical tests in order to find meaningful relationship between different features in the data to the mortality feature.
+Furthermore I provide unsupervised clustering approach in order to identify different groups of the data and focus on groups divided by mortality rates, I then build a machine learning model using Neural Networks, Decision Tree based algorithms (Boosting and Random Forest) and simple logistic regression to provide a prediction for a patient's mortality.
+I then understand out of said techniques which features are most beneficial to predict a patient's mortality, using the unsupervised analysis I create a hybrid model based on the clustering and provide a better prediction for the mortality of a patient.
+Finally, I make conclusions from the data and the meaningful factors that might help the medical system predict or calculate a person probability of mortality thus proving the usefulness of used tools in today's medical systems.
